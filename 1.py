@@ -20,7 +20,7 @@ def write_to_docx(file_names, output_doc_path):
     doc.save(output_doc_path)
 
 if __name__ == "__main__":
-    archive_path = 'Downloads.7z'  # 这里是你的 7z 文件路径
+    archive_path = 'Downloads.7z'  # 这里是你的 7z 文fd件路径
     output_doc_path = 'output.docx'  # 输出的 Word 文档路径
     
     # 获取 7z 文件中的所有文件名
